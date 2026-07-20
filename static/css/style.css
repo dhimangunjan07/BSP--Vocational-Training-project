@@ -1,0 +1,557 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif; 
+}
+.bold {
+  font-weight: bold; 
+}
+
+
+#nav-bar
+{
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+
+.navbar
+{
+  background-image: linear-gradient(to right,#ffffff,#5DADE2);
+   padding: 0;
+}
+
+.navbar-brand img
+{
+    height: 70px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.navbar-nav li
+{
+    padding: 0 7px;
+}
+
+.navbar-nav li a
+{
+    color: #393939 !important;
+    font-size: 16px;
+}
+
+.navbar-nav li a:hover
+{
+    color: #5a5a5a !important;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.fa-bars
+{
+  color: #fff;
+  font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+  outline:none !important;
+}
+
+.carousel-item
+{
+  width: 50px;
+  height: 100%;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+#banner
+{
+  background-image: linear-gradient(to right,#ffffff,#2AAEF2);
+  padding-top: 10px;
+}
+.promo-title
+{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.promo-data
+{
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #4d4c4c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.border border-primary a
+{
+  width: 50px;
+  height: 400px;
+}
+
+th,td
+{
+  width: 10%;
+  height: 0%;
+  text-align: left;
+  
+}
+
+.table {
+  text-align: left;
+  
+  margin-left: auto;
+  margin-right: auto;
+  border-color: 15px #2a95ff;
+  width: 30%;
+
+}
+
+.table-info
+{
+     font-size: 20px;
+     font-weight: 200px;
+     font-family: merriwether;
+     border-color: 500px bold #020061;
+     background-color: #c49c9c !important;
+}
+
+
+.data-info
+{
+     font-size: 14.77px;
+     font-family: merriwethersans;
+     font-weight: 150px;
+     color: #232323;
+     background-color: #ffffff;
+     border-color: 15px bold #020061;
+     text-align: left;
+}
+
+h1
+{
+   font-size: 35px !important;
+   font-weight: 550 !important;
+   color: #0c0b48;
+   padding-block: none;
+   text-align: left;
+}
+h2
+{
+   font-size: 20px !important;
+   font-weight: 350px !important;
+}
+
+.px-5
+{
+  font-size: medium;
+  text-align: left !important;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.px-5-4
+{
+  text-align: left;
+  color: #f17500;
+  font-weight: bold;
+}
+.px-5-5
+{
+  text-align: left;
+  color: #9000ff;
+  font-weight: bold;
+}
+.px-5-3
+{
+  text-align: left;
+  color: #0023ae;
+  font-weight: 300;
+}
+
+.px-5-1
+{
+  text-align: left;
+  color: #0023ae;
+  font-weight: bold;
+}
+
+.px-5-7
+{
+  text-align: left;
+  color: #000000;
+  font-weight: bold;
+}
+
+.px-5-2
+{
+  text-align: left;
+  color: #5323ff;
+}
+.text-primary
+{
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.button-align{
+  text-align: center;
+  position: relative;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-1
+{
+  border: 5px solid #87c9e4;
+}
+.card-title
+{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #1faff8;
+}
+
+.card-title:hover
+{
+  font-size: 32px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #1faff8;
+  transition: 0.3s;
+}
+.card-text
+{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #080808;
+}
+
+.card-text:hover
+{
+  font-size: 32px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #000000;
+  transition: 0.3s;
+}
+
+.card-title-1
+{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #010053;
+}
+
+.card-title-1:hover
+{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #0073b1;
+  transition: 0.3s;
+}
+
+.card-text-1
+{
+  font-size: 12px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #080808;
+}
+
+.card-text-1:hover
+{
+  font-size: 14px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #0073b1;
+  transition: 0.3s;
+}
+
+.card-img-top
+{
+   width: 20px;
+   height: 200px;
+   border-color: 2px solid #75f6ff;
+}
+h7
+{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #1faff8;
+}
+
+h7:hover
+{
+  font-size: 22px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #1faff8;
+  transition: 0.3s;
+  
+}
+
+
+
+
+h3
+{
+   font-size: 10px !important;
+   font-weight: 100 !important;
+   color: #535354;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   padding-left: 7px;
+   padding-right: 7px;
+}
+
+p
+{
+  padding-bottom: 7px;
+  padding-left: 70px;
+  padding-right: 70px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.footer{
+  background-image: linear-gradient(#87c9e4,#87c9e4);
+}
+
+.footer a
+{
+  padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 3px;
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer a:hover
+{
+    color:#2a7908;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Body Styling */
+body {
+  font-family: 'Merriweather Sans', 'Segoe UI', Arial, sans-serif;
+  background: #f5f9ff;
+}
+
+/* Make Headings Consistent */
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #0c0b48;
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #222257;
+}
+
+/* Navbar Styles */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(to right, #ffffff, #5DADE2);
+  padding: 0;
+  box-shadow: 0 3px 6px rgba(90,150,200,0.09);
+}
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+  padding-left: 5px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #393939 !important;
+  font-size: 16px;
+  transition: all 0.15s;
+}
+.navbar-nav li a:hover {
+  color: #2A95FF !important;
+  font-size: 17px;
+}
+
+/* Table Responsive for Bootstrap */
+.table-responsive {
+  margin-top: 24px;
+}
+.table {
+  width: 100%;
+  background: #fff;
+  border: 2px solid #2a95ff;
+}
+th, td {
+  text-align: center;
+  vertical-align: middle !important;
+  padding: 6px 10px;
+  font-size: 1rem;
+}
+.table-info {
+  background-color: #cfe2ff !important;  /* Bootstrap's info-light */
+  color: #222257;
+  font-family: 'Merriweather', serif;
+  font-weight: 500;
+  font-size: 1.12rem;
+}
+.data-info {
+  background: #fff;
+  color: #232323;
+  font-size: 0.94rem;
+  font-family: 'Merriweather Sans', Arial, sans-serif;
+}
+
+/* Dynamic Color Coding (optional, add conditionally via Jinja if needed) */
+.table-success {
+  background-color: #d4edda !important;
+}
+.table-warning {
+  background-color: #fff3cd !important;
+}
+.table-danger {
+  background-color: #f8d7da !important;
+}
+
+/* Buttons */
+.button-align {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Footer Styles */
+.footer {
+  background-image: linear-gradient(#87c9e4, #87c9e4);
+  font-size: 1rem;
+}
+.footer a {
+  color: #000;
+  font-size: 16px;
+  margin: 0 6px;
+  transition: color 0.2s, transform 0.15s;
+}
+.footer a:hover {
+  color: #2a7908;
+  transform: scale(1.12);
+}
+.footer .small {
+  color: #535354;
+  margin-top: 10px;
+}
+
+/* Card Styling for About/Contact */
+.card-1 {
+  border: 3px solid #87c9e4;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 10px rgba(90, 150, 200, 0.09);
+}
+.card-title, .card-title-1 {
+  color: #1faff8;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+.card-title:hover, .card-title-1:hover {
+  color: #0073b1;
+  font-size: 1.15em;
+}
+.card-text, .card-text-1 {
+  text-align: center;
+  padding: 8px 0;
+  color: #080808;
+  font-size: 1.1rem;
+}
+
+/* Utility Classes */
+.bold {
+  font-weight: bold;
+}
+.text-primary {
+  margin-top: 10px;
+  margin-bottom: 7px;
+  color: #0c0b48 !important;
+}
+
+/* Keep only the table scrolling horizontally */
+.table-container {
+  overflow-x: auto;     /* Enables horizontal scroll */
+  overflow-y: hidden;   /* No vertical scroll in container */
+  max-width: 100%;      /* Don't overflow the page width */
+  -webkit-overflow-scrolling: touch; /* Smooth scroll on mobile */
+}
+
+/* Ensure the table takes full width in scrolling area */
+.table-container table {
+  min-width: 1000px; /* adjust based on your data size */
+  white-space: nowrap; /* Prevent cell wrap */
+}
+
+/*
+/* Navbar should always stay visible 
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Footer can stick too if desired 
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
+} 
+*/
+.table thead th {
+  position: sticky;
+  top: 0;
+  background: #cfe2ff; /* same as .table-info */
+  z-index: 2;
+}
