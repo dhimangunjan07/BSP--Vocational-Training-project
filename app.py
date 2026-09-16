@@ -9,7 +9,7 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",       # Change if not local
         user="root",            # Your MySQL username
-        password="root", # Your MySQL password
+        password="password", # Your MySQL password
         database="bsp"          # Your DB name
     )
 
